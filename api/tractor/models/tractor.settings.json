@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tractors",
+  "info": {
+    "name": "Tractor"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Marka": {
+      "type": "string",
+      "required": true,
+      "minLength": 2
+    },
+    "Model": {
+      "type": "string",
+      "required": true,
+      "minLength": 2
+    },
+    "Yil": {
+      "type": "integer",
+      "required": true
+    },
+    "Plaka": {
+      "type": "string",
+      "required": true,
+      "default": "Belirtilmedi"
+    },
+    "Saat": {
+      "type": "string",
+      "default": "Belirtilmedi",
+      "required": true
+    },
+    "Muayene_Tarihi": {
+      "type": "string",
+      "default": "Belirtilmedi",
+      "required": true
+    },
+    "Fiyat": {
+      "type": "decimal",
+      "default": 0,
+      "required": true
+    },
+    "Kredi_Miktari": {
+      "type": "decimal",
+      "default": 0,
+      "required": true
+    },
+    "Aciklama": {
+      "type": "richtext",
+      "default": "Belirtilmedi"
+    },
+    "Ceker": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
