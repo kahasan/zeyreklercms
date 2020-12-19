@@ -55,6 +55,10 @@
     "Ceker": {
       "type": "string",
       "required": true
+    },
+    "Ruhsat": {
+      "type": "string",
+      "default": "Belirtilmedi"
     }
   }
 }
